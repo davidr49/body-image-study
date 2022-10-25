@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- bootstrap/css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/styles.css">
+
+  <!--  Font Awesome  -->
+  <script src="https://kit.fontawesome.com/567f40eaa8.js" crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:300" rel="stylesheet">
+
+
+
+  <title>Get Involved</title>
+</head>
+
+<body>
+
+
+  <nav class='navbar navbar-expand-lg navbar-light fixed-top'>
+
+        <a class='navbar-brand' href="">Body Image and Ethnicity Study</a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class='collapse navbar-collapse' id='navbarTogglerDemo01'>
+
+          <ul class='navbar-nav ms-auto'>
+             <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('home') }}">Home</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('about') }}">About</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('faqs') }}">FAQs</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('meet_team') }}">Meet the Team</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('get_involved') }}">Get Involved</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('further_work') }}">Further Work</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('contact') }}">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+  <h1 class='about-title' style=>Get Involved</h1>
+
+  <div class="container-lg about-main">
+    <div class="row">
+
+
+      <div class="col-lg-6">
+
+        <h1 class='about-item  align-items-center'>There are multiple ways to be involved with the Body Image and Ethnicity study this year. </h1>
+
+        <h1 class='about-item  align-items-center'>If you don’t identify with any of the below opportunities, then please don’t hesitate to <a href="mailto:H.k.lewis@qmul.ac.uk" class='email-han'> get in touch</a> with Hannah.</h1>
+      </div>
+      <div class="col-lg-6">
+
+        <img src="static/get-involved-photos/get-involved-img.png" alt="" class='about-image'>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="member-info1" style='text-align:center; padding: 50px 0; margin-top: 40px; overflow:hidden; height:580px;'>
+
+    <div id="work-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="static/get-involved-photos/get-involved-img2.png" alt="" class='carousel-image'>
+          <h1 class='about-item carousel-options'>Option 1</h1>
+<p class='carousel-text'>If you identify as female or non-binary, are aged 13-19, are from a South Asian background and experience body image concerns, you can attend a focus group to discuss your experiences.<a href="https://forms.office.com/r/qrjJdWDkg1" class='email-han'>Just follow this link.</a></p>
+        </div>
+        <div class="carousel-item">
+          <img src="static/get-involved-photos/get-involved-img3.png" alt="" class='carousel-image'>
+          <h1 class='about-item carousel-options'>Option 2</h1>
+<p class='carousel-text'>If you meet the criteria for Option 1, but would rather have a 1:1 interview than attend a focus group, you can<a href="mailto:H.k.lewis@qmul.ac.uk" class='email-han'>get in touch with Hannah</a>to arrange a convenient time to chat.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="static/get-involved-photos/get-involved-img4.png" alt="" class='carousel-image'>
+          <h1 class='about-item carousel-options'>Option 3</h1>
+<p class='carousel-text'> If you have lived experience of either BDD or an eating disorder, and would like to be involved in the co-production of a cultural adaptation, you can<a href="mailto:H.k.lewis@qmul.ac.uk" class='email-han'>get in touch with Hannah here.</a></p>
+        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#work-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#work-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

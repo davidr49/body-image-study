@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- bootstrap/css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/styles.css">
+
+  <!--  Font Awesome  -->
+  <script src="https://kit.fontawesome.com/567f40eaa8.js" crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:300" rel="stylesheet">
+
+
+  <title>FAQs</title>
+</head>
+
+<body>
+
+ <nav class='navbar navbar-expand-lg navbar-light fixed-top'>
+
+        <a class='navbar-brand' href="">Body Image and Ethnicity Study</a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class='collapse navbar-collapse' id='navbarTogglerDemo01'>
+
+          <ul class='navbar-nav ms-auto'>
+             <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('home') }}">Home</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('about') }}">About</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('faqs') }}">FAQs</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('meet_team') }}">Meet the Team</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('get_involved') }}">Get Involved</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('further_work') }}">Further Work</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="{{ url_for('contact') }}">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+  <h1 class='about-title' style=>Frequently Asked Questions</h1>
+
+  <div class="accordion">
+    <div>
+      <input type="checkbox" name="example_accordion" id="question1" class='accordion-input'>
+      <label for="question1" class='accordion-label'>What if something goes wrong?</label>
+      <div class="accordion-content">
+        <p>During the focus groups, it might be that the things we talk about trigger or upset you. If this happens, there will be a virtual space where you can take some time out. There will be a co-facilitator present who will be happy to chat to
+          you in a private virtual breakout room until you are feeling ready to join back in with the discussions. If you didn’t feel like joining back in with the discussions, you can chat to the co-facilitator until you feel better and then you can
+          leave the focus group.</p>
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="example_accordion" id="question2" class='accordion-input'>
+      <label for="question2" class='accordion-label'>What will happen if I don't want to carry on with the study?</label>
+      <div class="accordion-content">
+        <p>If at any point you decide that you don’t want to carry on with the study, you can withdraw at any point during the study by contacting the lead researcher (Hannah Lewis) via the details at the end of the document. However any data
+          collected up to that point will be retained, with no further data collected.
+        </p>
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="example_accordion" id="question3" class='accordion-input'>
+      <label for="question3" class='accordion-label'>How will we use information about you?</label>
+      <div class="accordion-content">
+        <p>We will need to use information from you for this research project. This information will include your name, demographic information, and contact details so that I can communicate with you before the focus group takes place.</p>
+        <p>However, other people who do not need to know who you are will not be able to see your name or contact details. We will keep all information about you safe and secure.</p>
+        <p>During the online group, our conversation will be audio-recorded (not video-recorded). This is solely to help the research with writing up the results of the focus group and the recording will be deleted after the session has been
+          transcribed.</p>
+        <p>Once we have finished the study, we will keep some of the data so we can check the results, but we will write our reports in a way that no-one can work out that you took part in the study. For example, if we use direct quotes they will be
+          anonymised.</p>
+
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="example_accordion" id="question4" class='accordion-input'>
+      <label for="question4" class='accordion-label'>How will my information be kept confidential?</label>
+      <div class="accordion-content">
+        <p>All of your information will be kept confidential as it will be kept solely on my University desktop which will always be password protected.</p>
+        <p>Only I will have access to this data throughout the study. When I write up the notes from our focus group, all names will be changed to protect participants’ identities.</p>
+        <p>To ensure that the participants are not identifiable, pseudonyms as opposed to real names will be used in the transcripts and reporting of the focus groups, and all introductions at the beginning of the focus group will be done before
+          turning on the voice recorder.</p>
+        <p>The details of any potential participants who engage in the recruitment process but do not wish to continue with the study will be deleted.</p>
+        <p>The only instance where confidentiality may be broken is if I or another member of the research team are concerned about your or believe that you are a risk to yourself or others.</p>
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="example_accordion" id="question5" class='accordion-input'>
+      <label for="question5" class='accordion-label'>What will happen to the results of this study?</label>
+      <div class="accordion-content">
+        <p>The results of this study will be used to build a ‘conceptual model’ of body dissatisfaction among British South Asian adolescent girls. A conceptual model just means that the results will be organised in a way that helps other researchers
+          and healthcare professionals to better understand how this group of people experiences things like body image difficulties.</p>
+        <p>Participants can request a copy of the final report if they would be interested.</p>
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="example_accordion" id="question6" class='accordion-input'>
+      <label for="question6" class='accordion-label'>Who is organising and funding this study?</label>
+      <div class="accordion-content">
+        <p>This study is being organised between me – the student and Chief Investigator – and the host university (Queen Mary, University of London). The study is fully funded by the Economic and Social Research council (ESRC).</p>
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="example_accordion" id="question7" class='accordion-input'>
+      <label for="question7" class='accordion-label'>Who has reviewed this study?</label>
+      <div class="accordion-content">
+        <p>This study has been reviewed by my university’s Research Ethics Committee to ensure that they are satisfied with my methods.</p>
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="example_accordion" id="question8" class='accordion-input'>
+      <label for="question8" class='accordion-label'>Will you tell my doctor that I am taking part?</label>
+      <div class="accordion-content">
+        <p>No – I will not tell your doctor or any other healthcare professional that supports you that you are taking part in this study.</p>
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="example_accordion" id="question9" class='accordion-input'>
+      <label for="question9" class='accordion-label'>What if I want to be involved in the study but I’m not comfortable sharing my experiences in front of a group?</label>
+      <div class="accordion-content">
+        <p>If you would like to be involved in the study, but would prefer a 1:1 meeting instead of attending a focus group, please email the lead researcher h.k.lewis@qmul.ac.uk and this can be arranged.</p>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
