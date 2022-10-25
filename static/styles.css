@@ -80,12 +80,11 @@ section{
 
 .right a{
   text-decoration: none;
-  text-transform: uppercase;
   background-color: #FAE8C8;
   color: #445C3C;
-  padding:20px 10px;
+  padding:10px 30px;
   display: inline-block;
-  letter-spacing: 2px;
+  font-size: 1.3rem;
 }
 
 .right a:hover{
