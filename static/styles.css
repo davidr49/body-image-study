@@ -426,6 +426,7 @@ font-weight:lighter;
 }
 .carousel-image{
   width:250px;
+  padding-bottom:20px;
 }
 .carousel-options{
   padding-top: 10px;
@@ -436,7 +437,6 @@ font-weight:lighter;
   font-size: 1.3rem;
   padding: 0 15%;
   font-weight: lighter;
-  overflow-y: auto;
 }
 
 @media only screen and (max-width: 768px){
@@ -445,6 +445,8 @@ font-weight:lighter;
   }
   .carousel-text{
     height:300px;
+    overflow-y: auto;
+
   }
 }
 
