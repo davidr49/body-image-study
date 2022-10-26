@@ -408,22 +408,46 @@ font-weight:lighter;
 
 /* ------ GET INVOLVED -------*/
 
+.carousel-div{
+  background-color:#FAE8C8;
+  padding-top:30px;
+  width:auto;
+  height:500px;
+}
+.carousel{
+  position:absolute;
+}
+.carousel-item{
+  object-fit:cover;
+  object-position:center;
+  overflow:hidden;
+  text-align:center;
+  align-items: center;
+}
 .carousel-image{
   width:250px;
 }
-
 .carousel-options{
   padding-top: 10px;
   font-weight:lighter;
   color:#445C3C
 }
-
 .carousel-text{
   font-size: 1.3rem;
   padding: 0 15%;
-  font-weight:lighter;
-
+  font-weight: lighter;
+  overflow-y: auto;
 }
+
+@media only screen and (max-width: 768px){
+  .carousel-div{
+    height:700px;
+  }
+  .carousel-text{
+    height:300px;
+  }
+}
+
 
 .email-han{
   font-weight:normal;
